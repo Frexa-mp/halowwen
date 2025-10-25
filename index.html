@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta de Halloween</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=captive_portal" />
+</head>
+
+<body>
+    <nav class="navarra">
+        <div class="navarrabrand">Halloween 2025</div>
+        <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#formulacion">Inscripción</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+        
+    </nav>
+    <div class="cabesa" id="inicio">
+        <img src="img\fantasma1.png" alt="Fantamas">
+        <h1 class="h1">Este 31 de Octubre celebra con nosotros una fiesta de Halloween espeluznante
+            en el IES Monte Naranco
+        </h1>
+        <img src="img\fantasma1.png" alt="Fantamas">
+    </div>
+
+    <div class="ol-in" id="eventos">
+        <ol id="divisas">
+            <li id="literal"> <a class="nggyu" href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+                    <h1>Concurso de disfraces</h1>
+                    <b>Hora de comienzo: 10:00</b>
+                    <p>Desfila con tu mejor disfraz y deja que el jurado elija al más original, aterrador y divertido.
+                        ¡Habrá premios para los ganadores!</p>
+                </a>
+            </li>
+            <li id="literal"><a class="nggyu" href="https://www.youtube.com/watch?v=R0lqowYD_Tg" target="_blank">
+                    <h1>Búsqueda del tesoro embrujado</h1>
+                    <b>Hora de comienzo: 12:30</b>
+                    <p>Forma un equipo, sigue las pistas y encuentra el tesoro oculto del fantasma antes que los demás.
+                        ¡La aventura te espera!</p>
+                </a>
+            </li>
+            <li id="literal"><a class="nggyu"
+                    href="https://www.youtube.com/watch?v=DxB-5gYjDEI&list=RDDxB-5gYjDEI&start_radio=1" target="_blank">
+                    <h1>Almuerzo temático</h1>
+                    <b>Hora de comienzo: 14:00</b>
+                    <p>LDisfruta de un almuerzo especial con platos “de miedo”: dedos de bruja, sangre de vampiro y
+                        postres monstruosos. ¡Buen provecho!</p>
+                </a>
+    </div>
+    </ol>
+    <div class="ol-in">
+        <ol id="divisas2">
+            </li>
+            <li id="literal"> <a class="nggyu" href="https://www.youtube.com/watch?v=hb04w8pHCkg" target="_blank">
+                    <h1>Juegos terroríficos y retos</h1>
+                    <b>Hora de comienzo: 15:30</b>
+                    <p>Compite en carreras de momias, trivias de miedo y otros desafíos espeluznantes. ¡Ríe y grita al
+                        mismo tiempo!</p>
+                </a>
+            </li>
+            <li id="literal"><a class="nggyu"
+                    href="https://www.youtube.com/watch?v=kp2EE00LDwA&list=RDkp2EE00LDwA&start_radio=1" target="_blank">
+                    <h1>Cine y cierre con historias de miedo</h1>
+                    <b>Hora de comienzo: 18:00</b>
+                    <p>Relájate con una película de Halloween y termina la jornada contando historias de terror bajo la
+                        luz de las linternas.</p>
+                </a>
+            </li>
+            <li id="literal"><a class="nggyu"
+                    href="https://www.youtube.com/watch?v=hMS8RtYVouc&list=RD4L1jUS7jOgo&index=22" target="_blank">
+                    <h1>Despedida con fogata y música de Halloween</h1>
+                    <b>Hora de comienzo: 20:00</b>
+                    <p>Reúnete con todos alrededor de la fogata para compartir historias, canciones y un último brindis
+                        monstruoso. ¡Despide la noche con magia y diversión!</p>
+                </a>
+            </li>
+        </ol>
+    </div>
+
+    <form id="formulacion">
+        <div id="formulacion2">
+            <div id="epacio">
+                <div style="margin-top:20px;">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="Apep">Apellidos:</label><br>
+                    <input type="text" id="Apep" name="Apep"><br>
+                    <label for="correo">Correo:</label><br>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div class="container">
+                    <input type="submit" value="Enviar" class="ltt">
+                    <input type="reset" value="Cancelar" class="nltt">
+                </div>
+            </div>
+
+            <br><br><br><br><br><br><br><br>
+        </div>
+
+        <script>
+            (function () {
+                const form = document.getElementById('formulacion');
+                if (!form) return;
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const cont = document.getElementById('formulacion2');
+                    if (!cont) return;
+                    cont.style.backgroundImage = 'url("img/ltth.jpg")';
+                    cont.style.backgroundSize = '75% auto';
+                    cont.style.backgroundPosition = 'center';
+                });
+            })();
+        </script>
+    </form>
+
+
+    <nav id="contacto">
+        <h2> Contacta con nosotros!</h2>
+        <a href="https://www.instagram.com/linustech/">
+            <span  class="material-symbols-outlined" > 
+                captive_portal
+            </span>
+        </a>
+</body>
+
+</html>
