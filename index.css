@@ -108,6 +108,71 @@ body {
     max-width: calc(33.333% - 20px);
 }
 
+@keyframes ani1 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: -200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 30px;
+        top: 0px;
+    }
+
+    75% {
+        left: -200px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#testo {
+    position: relative;
+    animation-name: ani1;
+    animation-duration: 4s;
+}
+
+@keyframes ani2 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: -30px;
+        top: 0px;
+    }
+
+    75% {
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#testo2 {
+    position: relative;
+    animation-name: ani2;
+    animation-duration: 4s;
+}
 
 #divisas {
     display: flex;
@@ -219,4 +284,8 @@ body {
     text-decoration: none;
     outline: none;
     border: none;
+}
+
+#minita {
+    width: 50px;
 }
