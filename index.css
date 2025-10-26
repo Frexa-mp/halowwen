@@ -197,6 +197,7 @@ body {
 .ltt:hover {
     background-color: rgb(83, 138, 0);
     color: #ffffff;
+    opacity: 0.9;
 }
 
 .nltt {
@@ -207,14 +208,12 @@ body {
 .nltt:hover {
     background-color: #e74c3c;
     color: white;
-}
-
-.ltt:hover,
-.nltt:hover {
     opacity: 0.9;
 }
 
-#IES {
+
+
+.IES {
     color: #f78400;
     font-family: Creepster;
     text-decoration: none;
